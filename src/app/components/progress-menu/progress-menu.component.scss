@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.content-componet-progress-menu{
+    h2{
+        margin: 20px 0px;
+    }
+
+    .box-progress-menu{
+        width: 100%;
+        display: grid;
+        
+        .iten-progress-menu{
+            display: grid;
+            grid-template-rows: repeat(2, auto);
+
+            span{
+                margin-top: 8px;
+                min-height: 5px;
+                width: 100%;
+                background:#D3D3D3;
+
+                &.ativo{
+                    background: #008000;
+                }
+            }
+
+        }
+    }
+}
